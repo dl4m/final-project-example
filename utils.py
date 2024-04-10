@@ -21,4 +21,25 @@ def load_training_data(data_path):
     labels : list of int
         A list of corresponding labels for the image files.
     """
-    pass
+    image_file_paths = []
+    labels = []
+
+    # TODO
+
+    return image_file_paths, labels
+
+
+def plot_loss(history):
+    """
+    Plot the training and validation loss and accuracy.
+
+    Parameters
+    ----------
+    history : keras.callbacks.History
+      The history object returned by the `fit` method of a Keras model.
+
+    Returns
+    -------
+    None
+    """
+    # TODO
